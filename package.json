@@ -1,0 +1,22 @@
+{
+  "name": "nlogj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhancv/nlogj.git"
+  },
+  "author": "Nhan Cao <nhancv92@gmail.com> (https://nhancv.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhancv/nlogj/issues"
+  },
+  "homepage": "https://github.com/nhancv/nlogj#readme",
+  "dependencies": {
+    "moment": "^2.20.1"
+  }
+}
