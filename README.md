@@ -23,3 +23,9 @@ logFile
 	.log('hello2')
 
  ```
+
+You will see new log file with name `hello.log` in current folder with content
+```
+2018-02-11 16:04:23 [Test]: hello
+2018-02-11 16:04:23 [Test]: hello2
+```
