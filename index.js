@@ -44,8 +44,15 @@ function log(data) {
 /**
  * EXPORT
  * Usage: 
- * const logFile = require('../../lib/logfile')
- * logFile.setTag('Test').setLogName('hello.log').setLogDir(__dirname).clearLog().log('hello').log('hello2')
+const logFile = require('nlogj')
+
+logFile
+  .setTag('Test')
+  .setLogName('hello.log')
+  .setLogDir(__dirname)
+  .clearLog()
+  .log('hello')
+  .log('hello2')
  */
 module.exports = {
   setTag,

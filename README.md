@@ -5,7 +5,21 @@ Awesome nodejs log to file
 
 [![nodei.co](https://nodei.co/npm/nlogj.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nlogj)
 
-## Usage
+## Installation
 ```
 npm install nlogj --save
 ```
+
+## Usage
+```
+const logFile = require('nlogj')
+
+logFile
+	.setTag('Test')
+	.setLogName('hello.log')
+	.setLogDir(__dirname)
+	.clearLog()
+	.log('hello')
+	.log('hello2')
+
+ ```
